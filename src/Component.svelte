@@ -43,7 +43,7 @@
       <ChevronLeft/>
     </span>
 
-    <div class="grid grid-cols-2 gap-8 w-full">
+    <div class="w-full grid grid-cols-2 gap-8">
       {#each months as month, index}
         <Month events={events} start={addMonths(startDayCalendar, index)} {...config} />
       {/each}
