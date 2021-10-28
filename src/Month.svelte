@@ -69,7 +69,7 @@
           {day.date.getDate()}
         </span>
 
-        <div class="flex items-center justify-center">
+        <div class="flex items-center justify-center absolute bottom-0">
           {#each day.events as event}
             {#if showMarkers}
               <span style="background-color: {event.markerColor}" class="w-1 h-1 mx-px mb-px rounded-full "></span>
