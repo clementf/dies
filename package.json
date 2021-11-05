@@ -1,6 +1,6 @@
 {
   "name": "dies",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A Svelte package to display events in a calendar",
   "svelte": "src/index.js",
   "module": "dist/index.mjs",
